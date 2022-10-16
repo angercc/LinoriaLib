@@ -12,7 +12,7 @@ local ThemeManager = {} do
 		['Tokyo Night'] 	= { 5, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"191925","AccentColor":"6759b3","BackgroundColor":"16161f","OutlineColor":"323232"}') },
 		['Ubuntu'] 			= { 6, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"3e3e3e","AccentColor":"e2581e","BackgroundColor":"323232","OutlineColor":"191919"}') },
 		             ['Monochrome']                   = { 7, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1b1a1a","AccentColor":"ffffff","BackgroundColor":"1c1c1c","OutlineColor":"3c3c3c"}') },
-		['Taupe']  = { 8, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1d1810","AccentColor":"0c0c0c","BackgroundColor":"141414","OutlineColor":"120f0f"}') },
+		['Tauper']  = { 8, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1d1810","AccentColor":"0c0c0c","BackgroundColor":"141414","OutlineColor":"120f0f"}') },
 	}
 
 	function ThemeManager:ApplyTheme(theme)
