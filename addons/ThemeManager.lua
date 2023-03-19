@@ -11,8 +11,23 @@ local ThemeManager = {} do
 		['Mint'] 			= { 4, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"3db488","BackgroundColor":"1c1c1c","OutlineColor":"373737"}') },
 		['Tokyo Night'] 	= { 5, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"191925","AccentColor":"6759b3","BackgroundColor":"16161f","OutlineColor":"323232"}') },
 		['Ubuntu'] 			= { 6, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"3e3e3e","AccentColor":"e2581e","BackgroundColor":"323232","OutlineColor":"191919"}') },
-		             ['Monochrome']                   = { 7, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1b1a1a","AccentColor":"ffffff","BackgroundColor":"1c1c1c","OutlineColor":"3c3c3c"}') },
-		['Tauper']  = { 8, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1d1810","AccentColor":"0c0c0c","BackgroundColor":"141414","OutlineColor":"120f0f"}') },
+		['Abyss'] 		= { 7, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1e1e","AccentColor":"8c87b4","BackgroundColor":"141414","OutlineColor":"0a0a0a"}') },
+		['Fatality'] 			= { 8, httpService:JSONDecode('{"FontColor":"c8c8ff","MainColor":"231946","AccentColor":"f00f50","BackgroundColor":"191432","OutlineColor":"0f0f28"}') },
+		['Neverlose'] 			= { 9, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"000f1e","AccentColor":"00b4f0","BackgroundColor":"050514","OutlineColor":"000005"}') },
+		['Aimware'] 			= { 10, httpService:JSONDecode('{"FontColor":"e8e8e8","MainColor":"2b2b2b","AccentColor":"c82828","BackgroundColor":"191919","OutlineColor":"000005"}') },
+		['Youtube'] 	= { 11, httpService:JSONDecode('{"FontColor":"f1f1f1","MainColor":"232323","AccentColor":"ff0000","BackgroundColor":"0f0f0f","OutlineColor":"000000"}') },
+		['Gamesneeze'] 			= { 12, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"171717","AccentColor":"a7d94d","BackgroundColor":"0c0c0c","OutlineColor":"000000"}') },
+		['Onetap'] 		= { 13, httpService:JSONDecode('{"FontColor":"d6d9e0","MainColor":"2c3037","AccentColor":"dda85d","BackgroundColor":"1f2125","OutlineColor":"000000"}') },
+		['Entropy'] 			= { 14, httpService:JSONDecode('{"FontColor":"dcdcdc","MainColor":"3d3a43","AccentColor":"81bbe9","BackgroundColor":"302f37","OutlineColor":"0a0a0a"}') },
+		['Interwebz'] 			= { 15, httpService:JSONDecode('{"FontColor":"fcfcfc","MainColor":"291f38","AccentColor":"c9654b","BackgroundColor":"1f162b","OutlineColor":"1a1a1a"}') },
+		['Dracula'] 			= { 16, httpService:JSONDecode('{"FontColor":"b4b4b8","MainColor":"2a2c38","AccentColor":"9a81b3","BackgroundColor":"252730","OutlineColor":"202126"}') },
+		['Spotify'] 	= { 17, httpService:JSONDecode('{"FontColor":"d0d0d0","MainColor":"181818","AccentColor":"1ed760","BackgroundColor":"121212","OutlineColor":"0a0a0a"}') },
+		['Sublime'] 			= { 18, httpService:JSONDecode('{"FontColor":"e8ffff","MainColor":"32332d","AccentColor":"ff9800","BackgroundColor":"282923","OutlineColor":"000000"}') },
+		['Vape'] 		= { 19, httpService:JSONDecode('{"FontColor":"dcdcdc","MainColor":"1f1f1f","AccentColor":"26866a","BackgroundColor":"1a1a1a","OutlineColor":"0a0a0a"}') },
+		['Neko'] 			= { 20, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"171717","AccentColor":"d21f6a","BackgroundColor":"131313","OutlineColor":"000000"}') },
+		['Corn'] 			= { 21, httpService:JSONDecode('{"FontColor":"dcdcdc","MainColor":"252525","AccentColor":"ff9000","BackgroundColor":"191919","OutlineColor":"000000"}') },
+		['Minecraft'] 			= { 22, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"333333","AccentColor":"27ce40","BackgroundColor":"262626","OutlineColor":"000000"}') },
+
 
 	}
 
