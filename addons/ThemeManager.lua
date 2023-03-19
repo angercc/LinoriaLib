@@ -5,7 +5,7 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-		['Default'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"f3531f","BackgroundColor":"141414","OutlineColor":"323232"}') },
+['Default'] 		= { 1, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"f3531f","BackgroundColor":"141414","OutlineColor":"323232"}') },
 		['Green'] 			= { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"141414","AccentColor":"00ff8b","BackgroundColor":"1c1c1c","OutlineColor":"3c3c3c"}') },
 		['Jester'] 			= { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"db4467","BackgroundColor":"1c1c1c","OutlineColor":"373737"}') },
 		['Mint'] 			= { 4, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"242424","AccentColor":"3db488","BackgroundColor":"1c1c1c","OutlineColor":"373737"}') },
@@ -13,7 +13,11 @@ local ThemeManager = {} do
 		['Ubuntu'] 			= { 6, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"3e3e3e","AccentColor":"e2581e","BackgroundColor":"323232","OutlineColor":"191919"}') },
 		             ['Monochrome']                   = { 7, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1b1a1a","AccentColor":"ffffff","BackgroundColor":"1c1c1c","OutlineColor":"3c3c3c"}') },
 		['Tauper']  = { 8, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1d1810","AccentColor":"0c0c0c","BackgroundColor":"141414","OutlineColor":"120f0f"}') },
+	        ['Abyss'] = {9, httpService:JSONDecode('{"OutlineColor":"0a0a0a","Accent":"8c87b4","FontColor":"ffffff","MainColor":"1e1e1e","BackgroundColor":"141414"}') },
+['Fatality'] = {10, httpService:JSONDecode('{"OutlineColor":"0f0f28","Accent":"f00f50","FontColor":"c8c8ff","MainColor":"231946","BackgroundColor":"191432""}') },
+['Neverlose'] = {11, httpService:JSONDecode('{"OutlineColor":"000005","Accent":"00b4f0","FontColor":"ffffff","MainColor":"000f1e","BackgroundColor":"050514"}') },
 
+		
 	}
 
 	function ThemeManager:ApplyTheme(theme)
