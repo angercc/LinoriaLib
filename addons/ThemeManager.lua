@@ -31,6 +31,7 @@ local ThemeManager = {} do
 ['Minecraft'] = {24, httpService:JSONDecode('{"OutlineColor":"000000","AccentColor":"27ce40","FontColor":"ffffff","MainColor":"333333","BackgroundColor":"262626""}') },
 --
 	}
+	print("Niggera")
 
 	function ThemeManager:ApplyTheme(theme)
 		local customThemeData = self:GetCustomTheme(theme)
